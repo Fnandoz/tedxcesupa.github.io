@@ -1,29 +1,29 @@
 ////////////////////////////////////////////
-//
+// 
 //   Countdown
 //   v5.0
 //   Sept. 3, 2014
 //   www.gieson.com
 //   Copyright Mike Gieson
-//
+// 
 //////////////////////////////////////////////////////////////////////////////////////
 //
 // The MIT License (MIT)
-//
+// 
 //////////////////////////////////////////////////////////////////////////////////////
 //
 // Copyright (c) 2014 Mike Gieson www.gieson.com
-//
+// 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
 // in the Software without restriction, including without limitation the rights
 // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 // copies of the Software, and to permit persons to whom the Software is
 // furnished to do so, subject to the following conditions:
-//
+// 
 // The above copyright notice and this permission notice shall be included in all
 // copies or substantial portions of the Software.
-//
+// 
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -46,7 +46,7 @@
 
 var CountdownImageFolder = "/assets/contador/images/"; // Should have trailing slash.
 // NOTE: The countdown script assumes the folder is relative to the countdown.js script file.
-// When CountdownImageFolder starts with a slash "/", or "http" the script will not assume the
+// When CountdownImageFolder starts with a slash "/", or "http" the script will not assume the 
 // folder is relative to the script and you can hard-code another folder on your site.
 // Examples:
 // var CountdownImageFolder = "/path/to/images/"; // Starts with a slash ( / ) as a shortcut to the root of your site.
@@ -65,7 +65,7 @@ var CountdownLabels = {
 	hour	: "Horas",
 	day 	: "Dias",
 	month 	: "Mês",
-	year 	: "Anos"
+	year 	: "Anos"	
 };
 
 var CountdownInterval = 76;
