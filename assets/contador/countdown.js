@@ -64,7 +64,7 @@ var CountdownLabels = {
 	minute 	: "Minutos",
 	hour	: "Horas",
 	day 	: "Dias",
-	month 	: "Meses",
+	month 	: "Mês",
 	year 	: "Anos"
 };
 
